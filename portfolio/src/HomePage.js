@@ -1,5 +1,6 @@
 import './HomePage.css';
 import Header from './components/Header';
+import About from './components/About';
 
 function HomePage() {
     return(
@@ -9,7 +10,7 @@ function HomePage() {
                 <h1>Section 1</h1>
             </div>
             <div id = "section2">
-                <h1>Section 2</h1>
+                <About/>
             </div>
             <div id = "section3">
                 <h1>Section 3</h1>
